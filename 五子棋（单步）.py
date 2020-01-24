@@ -135,10 +135,7 @@ while True:
                     pygame.display.update()
                     if sy==1:
                         qpsc()
-                        if ys %2 == 1:
-                            msgbox('白棋赢了！','五子棋')
-                        else:
-                            msgbox('绿棋赢了！','五子棋')
+                        msgbox('白棋赢了！','五子棋')
                 #else:
                     #pygame.draw.circle(screen,GREEN, [yxx, yxy], 15)
                     ys+=1
@@ -149,10 +146,7 @@ while True:
                     pygame.display.update()
                     if sy==1:
                         qpsc()
-                        if ys %2 == 1:
-                            msgbox('绿棋赢了！','五子棋')
-                        else:
-                            msgbox('白棋赢了！','五子棋')
+                        msgbox('绿棋赢了！','五子棋')
                     ys+=1
             #x,y,f=ai(qp)
             #print(x,y,f)
